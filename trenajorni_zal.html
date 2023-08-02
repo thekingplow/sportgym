@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet"> -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Фитнес Клуб</title>
+    <link rel="icon" href="image/favicon.ico" type="images/x-icon">
+</head>
+<body class="body_hide">
+	
+<!-- НАЧАЛО ШАПКИ -->
+
+<header>
+  <div class="container">
+    <nav class="nav_checkbox">
+      <a href="#" class="logo"><img src="image/logo.png" alt="Лого"></a>
+      <input type="checkbox" id="tab-nav" class="tab-nav">
+      <label for="tab-nav" class="label">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+      </label>
+      <ul class="content_nav">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index.html#traning">Тренировки</a>
+            <ul class="submenu">
+              <li><a href="trenajorni_zal.html"><b>Тренажерный зал</b></a></li>
+              <li><a href="edinaborstva.html"><b>Единаборства</b></a></li>
+            </ul>
+        </li>
+        <li><a href="#privilege">Преимущества</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <li><a class="enroll" href="#form">Записаться</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- КОНЕЦ ШАПКИ -->
+
+	<!-- НАЧАЛО БЛОКА ЖЕЛЕЗО -->
+
+<section>
+	<h2 style="padding-top: 90px;">Тренажерный зал</h2>
+	<div class="container-iron">
+		<div >
+  <ul class="home_list">
+    <li>
+      <div>
+        <a href="#win1"><img class="popup_img" title="" src="image/cybex.jpg" alt="cybex"  /></a>
+        <!-- Модальное окно №1 -->
+        <a href="#x" class="overlay" id="win1" ></a>
+        <div class="popup">
+          <img src="image/cybex.jpg" alt="cybex"/>
+          <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <div>
+          <h3>
+            <a href="#"></a>
+          </h3>
+          <p></p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <a href="#win2"><img class="popup_img" title="" src="image/arni-gym.jpeg" alt="Арнольд Шварценеггер" /></a>
+        <!-- Модальное окно №2 -->
+        <a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+          <img src="image/arni-gym.jpeg" alt="Арнольд Шварценеггер" />
+          <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <div>
+          <h3>
+            <a href="#"></a>
+          </h3>
+          <p></p>
+        </div>
+      </div>
+    </li>
+
+        <li>
+      <div>
+        <a href="#win3"><img class="popup_img" title="" src="image/panatta.jpg" alt="panatta" /></a>
+        <!-- Модальное окно №3 -->
+        <a href="#x" class="overlay" id="win3"></a>
+        <div class="popup">
+          <img src="image/panatta.jpg" alt="panatta" />
+          <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <div>
+          <h3>
+            <a href="#"></a>
+          </h3>
+          <p></p>
+        </div>
+      </div>
+    </li>
+
+        <li>
+      <div>
+        <a href="#win4"><img class="popup_img" title="" src="image/phil_heath.jpg" alt="Фил Хит" /></a>
+        <!-- Модальное окно №4 -->
+        <a href="#x" class="overlay" id="win4"></a>
+        <div class="popup">
+          <img src="image/phil_heath.jpg" alt="Фил Хит" />
+          <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <div>
+          <h3>
+            <a href="#"></a>
+          </h3>
+          <p></p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="iron_content">
+	<h3>Что по железу?</h3>
+	<p>Профессиональные тренажеры премиум класса CYBEX (USA) и PANATTA (ITALY) с идеальной биомеханикой</p>
+	<ul>
+		<li>кардиозона</li>
+		<li>блочные силовые тренажеры</li>
+		<li>зона тренировки ног и ягодиц</li>
+		<li>тренировка спины и пресса</li>
+		<li>зона свободных весов</li>
+		<li>зона функционального тренинга</li>
+	</ul>
+</div>
+	</div>
+</section>
+	
+	<!-- КОНЕЦ БЛОКА ЖЕЛЕЗО -->
+
+
+	<!-- НАЧАЛО БЛОКА ТРЕНАЖЕРОВ ОБНОВЛЕННЫЙ-->
+
+<section data-aos="zoom-in">
+  <h2 style="padding: 30px 0">Наши тренажеры</h2>
+<div class="slidershow">
+<div class="CSSgal">
+
+  <s id="s1"></s> 
+  <s id="s2"></s>
+  <s id="s3"></s>
+  <s id="s4"></s>
+  <s id="s5"></s>
+  <s id="s6"></s>
+  <s id="s7"></s>
+
+  <div class="slider">
+    <div>
+        <img src="image/sl1-t.jpg" alt="Слайдер 1">
+      </div>
+    <div>
+      <img src="image/sl2-t.jpg" alt="Слайдер 2">
+    </div>
+    <div>
+      <img src="image/sl3-t.jpg" alt="Слайдер 3">
+    </div>
+    <div>
+      <img src="image/sl4-t.jpg" alt="Слайдер 4">
+    </div>
+        <div>
+      <img src="image/sl5-t.jpg" alt="Слайдер 5">
+    </div>
+            <div>
+      <img src="image/sl6-t.jpg" alt="Слайдер 6">
+    </div>
+            <div>
+      <img src="image/sl7-t.jpg" alt="Слайдер 7">
+    </div>
+  </div>
+  
+  <div class="prevNext">
+    <div><a class="prev next" href="#s7"></a><a href="#s2"></a></div>
+    <div><a class="prev next" href="#s1"></a><a href="#s3"></a></div>
+    <div><a class="prev next" href="#s2"></a><a href="#s4"></a></div>
+    <div><a class="prev next" href="#s3"></a><a href="#s5"></a></div>
+    <div><a class="prev next" href="#s4"></a><a href="#s6"></a></div>
+    <div><a class="prev next" href="#s5"></a><a href="#s7"></a></div>
+    <div><a class="prev next" href="#s6"></a><a href="#s1"></a></div>
+  </div>
+
+  <div class="bullets">
+    <a href="#s1" title="Слайдер 1"></a>
+    <a href="#s2" title="Слайдер 2"></a>
+    <a href="#s3" title="Слайдер 3"></a>
+    <a href="#s4" title="Слайдер 4"></a>
+    <a href="#s5" title="Слайдер 5"></a>
+    <a href="#s6" title="Слайдер 6"></a>
+    <a href="#s7" title="Слайдер 7"></a>
+  </div>
+
+</div>
+  </div>
+  </section>
+
+<!-- КОНЕЦ БЛОКА ТРЕНАЖЕРОВ ОБНОВЛЕННЫЙ-->
+
+
+<!-- НАЧАЛО БЛОКА ТРЕНЕРА -->
+
+<section data-aos="zoom-in">
+  <h2>Тренера</h2>
+  <div class="container-coach">
+   <figure>
+    <p>Инструктор в тренажерном зале</p>
+    <p class="coach-wrap"><span class="coach"><img src="image/arni.jpg" alt="Арнольд Шварценеггер" title="Арнольд Шварценеггер" style=" left: -75px;"></span></p>
+    <figcaption>Арнольд Шварценеггер</figcaption>
+    <p>В бодибилдинге он получил: 
+      <ul>
+        <li><b>4 раза звание  &laquo;Мистер Вселенная&raquo;  </b></li>
+        <li><b>7 раз  &laquo;Мистер Олимпия&raquo; </b></li>
+    </ul>
+  </p>
+   </figure>
+  </div>
+</section>
+
+<!-- КОНЕЦ БЛОКА ТРЕНЕРА -->
+
+
+<!-- НАЧАЛО БЛОКА ПРЕИМУЩЕСТВА  -->
+
+<section class="wrap-privilege"  style="margin: 75px 0" id="privilege" data-aos="zoom-in">
+  <h2>наши преимущества</h2>
+  <div class="privilege">
+  <div>
+    <img src="image/simulators.png" alt="Оборудование">
+    <p>Профессиональное оборудование</p>
+  </div>
+  <div>
+    <img src="image/food.png" alt="Питание">
+    <p>Бесплатные консультации по питанию</p>
+  </div>
+  <div>
+    <img src="image/coaches.png" alt="Тренера">
+    <p>Квалифицированные тренера</p>
+  </div>
+  </div>
+</section>
+
+<!-- КОНЕЦ БЛОКА ПРЕИМУЩЕСТВА  -->
+
+
+<!-- НАЧАЛО БЛОКА ФОРМЫ ЗАПИСИ -->
+
+ <section style="margin-bottom: 150px;" id="form" data-aos="zoom-in">
+  <h2>Записаться на пробную тренировку</h2>
+  <p style="text-align: center;">Оставьте свои контакты и мы Вам перезвоним!</p>
+  <form>
+  <div class="input-container ic1">
+    <input id="firstname" class="input" type="tel" placeholder="+375(XX)XXX-XX-XX" maxlength="17">
+    <div class="cut" style="width: 116px;"></div>
+    <label for="firstname" class="placeholder">Номер телефона</label>
+  </div>
+  <div class="input-container ic2">
+    <input id="lastname" class="input" type="text" placeholder="">
+    <div class="cut"></div>
+    <label for="lastname" class="placeholder">Ваше имя</label>
+  </div>
+
+<div id="app-cover">
+  <div id="select-box">
+    <input type="checkbox" id="options-view-button">
+    <div id="select-button" class="brd">
+      <div id="selected-value">
+        <span>Направление</span>
+      </div>
+      <div id="chevrons">
+      <i class="fa fa-caret-down" aria-hidden="true" style="font-size: 26px"></i>
+      </div>
+    </div>
+    <div id="options">
+      <div class="option">
+        <input class="s-c top" type="radio" name="platform" value="dribbble">
+        <input class="s-c bottom" type="radio" name="platform" value="dribbble">
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><path d="M96 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V224v64V448c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V384H64c-17.7 0-32-14.3-32-32V288c-17.7 0-32-14.3-32-32s14.3-32 32-32V160c0-17.7 14.3-32 32-32H96V64zm448 0v64h32c17.7 0 32 14.3 32 32v64c17.7 0 32 14.3 32 32s-14.3 32-32 32v64c0 17.7-14.3 32-32 32H544v64c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32V288 224 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32zM416 224v64H224V224H416z"/></svg></i>
+        <span class="label">Тренажерный зал</span>
+        <span class="opt-val">Тренажерный зал</span>
+      </div>
+      <div class="option">
+        <input class="s-c top" type="radio" name="platform" value="behance">
+        <input class="s-c bottom" type="radio" name="platform" value="behance">
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg></i>
+        <span class="label">Бокс</span>
+        <span class="opt-val">Бокс</span>
+      </div>
+      <div class="option">
+        <input class="s-c top" type="radio" name="platform" value="hackerrank">
+        <input class="s-c bottom" type="radio" name="platform" value="hackerrank">
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M224 256c-57.2 0-105.6-37.5-122-89.3c-1.1 1.3-2.2 2.6-3.5 3.8c-15.8 15.8-38.8 20.7-53.6 22.1c-8.1 .8-14.6-5.7-13.8-13.8c1.4-14.7 6.3-37.8 22.1-53.6c5.8-5.8 12.6-10.1 19.6-13.4c-7-3.2-13.8-7.6-19.6-13.4C37.4 82.7 32.6 59.7 31.1 44.9c-.8-8.1 5.7-14.6 13.8-13.8c14.7 1.4 37.8 6.3 53.6 22.1c4.8 4.8 8.7 10.4 11.7 16.1C131.4 28.2 174.4 0 224 0c70.7 0 128 57.3 128 128s-57.3 128-128 128zM0 482.3C0 399.5 56.4 330 132.8 309.9c6-1.6 12.2 .9 15.9 5.8l62.5 83.3c6.4 8.5 19.2 8.5 25.6 0l62.5-83.3c3.7-4.9 9.9-7.4 15.9-5.8C391.6 330 448 399.5 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM160 96c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H160z"/></svg></i>
+        <span class="label">ММА</span>
+        <span class="opt-val">ММА</span>
+      </div>
+      <div id="option-bg"></div>
+    </div>
+  </div>
+  </div>
+
+<div class="wrapper-button">
+    <p class="inner">
+        <a class="button">
+            <span class="border"></span>
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            <span class="left"></span>
+            <span class="text">записаться</span>
+        </a>
+    </p>
+</div>
+    </form>
+</section>
+
+<!-- КОНЕЦ БЛОКА ФОРМЫ ЗАПИСИ -->
+
+
+<!-- НАЧАЛО БЛОКА КОНТАКТОВ -->
+
+<section class="wrap-contacts" id="contacts" data-aos="zoom-in">
+  <h2>Мы находимся</h2>
+  <div class=contacts>
+    <div>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8da9b9fc658ad4d86a7f127180c515a42c6adac2c8723380dcb315eff4ebe6e3&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+    </div>
+    <div  class="contacts_content">
+      <div>
+      <img src="image/logo.png" alt="Большой логотип">
+      <h3>Фитнес Клуб <strong>Power Strength GYM</strong></h3>
+        <p class="logo_text">Становись сильнее с нами</p>
+      </div>
+      <div>
+        <h3>КОНТАКТЫ:</h3>
+        <ul>
+        <li><i class="fa fa-home" aria-hidden="true"></i>г. Минск, проспект Машерова, 17</li>
+        <li><i class="fa fa-clock-o" aria-hidden="true"></i>работаем КРУГЛОСУТОЧНО</li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+375296899466" title="+375 (29) 689-94-66">+375 (29) 689-94-66</a><br>Viber, Whatsapp, Telegram</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mdanilov1@yandex.ru" title="mdanilov1@yandex.ru">mdanilov1@yandex.ru</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- КОНЕЦ БЛОКА КОНТАКТОВ -->
+
+
+<!-- НАЧАЛО ФУТЕРА -->
+
+<footer>
+<div class="footer">
+<div class="row">
+<a href="https://www.facebook.com/" title="facebook"><i class="fa fa-facebook"></i></a>
+<a href="https://www.instagram.com/" title="instagram"><i class="fa fa-instagram"></i></a>
+<a href="https://www.youtube.com/" title="youtube"><i class="fa fa-youtube"></i></a>
+<a href="https://twitter.com/" title="twitter"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Главная</a></li>
+<li><a href="index.html#traning">Тренировки</a></li>
+<li><a href="#privilege">Преимущества</a></li>
+<li><a href="#contacts">Контакты</a></li>
+<li><a href="#form">Записаться</a></li>
+</ul>
+</div>
+
+<div class="row">
+Power Strength GYM © 2023  
+</div>
+</div>
+</footer>
+
+<!-- КОНЕЦ ФУТЕРА -->
+
+
+<!-- НАЧАЛО КНОПКА НАВЕРХ -->
+
+<div id="back_to_top" class="back-to-top">
+<svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+</div>
+
+<script>
+  $('.back-to-top').click(function () {
+    $('body,html').animate({ scrollTop: 0}, 1000);
+});
+
+$(window).scroll(function() {
+    let scrolled = $(window).scrollTop();
+
+    if(scrolled > 550) {
+        $('.back-to-top').addClass('active');
+    } else {
+        $('.back-to-top').removeClass('active');
+    }
+});
+</script>
+
+<!-- КОНЕЦ КНОПКА НАВЕРХ -->
+
+<!-- НАЧАЛО АНИМАЦИИ ПРИ ПРОКРУТКЕ  -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- КОНЕЦ АНИМАЦИИ ПРИ ПРОКРУТКЕ -->
+
+<!-- НАЧАЛО АНИМАЦИИ ПРИ ПЕРЕХОДЕ НА ДРУГИЕ СТРАНИЦЫ -->
+
+<script>
+  setTimeout(function(){
+  document.body.classList.add('body_visible');
+}, 100);
+</script>
+
+<!-- КОНЕЦ АНИМАЦИИ ПРИ ПЕРЕХОДЕ НА ДРУГИЕ СТРАНИЦЫ -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- Danilovitch M.D.  ~(_8^(|)  -->
